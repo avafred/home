@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style copy.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..7
+		00;1,300..700&family=Rubik+80s+Fade&family=Rubik+Scribble&display=swap" rel="stylesheet">
+	
+		<title>Title of Your Website</title>
+	
+	</head>
+
+	<body>
+
+		<!-- It is almost always a good idea to have a large div wrap out the entire contents of your html body. In this example, that div is "container" This will make placement of other HTML elements easier. -->
+
+		<div class="container">
+
+			 <!-- Navigation Bar  -->
+
+			  <!-- In order to build our nav bar, use lists. <ul> is basically the container of the list and <li> is a single element in the list.
+
+			  To insert a link in the nav bar, simply put an anchor tag <a> inside a <li>. 
+
+			  For the link's href, we use id's which is another CSS selector (ID uses "#" as opposed to a class's ".". This makes sure that clicking on a link will automatically sroll down to a specific section.
+
+			  Finally, notice how our HTML is divided used <section> instead of <div>.-->
+
+			<section class="navigation">
+				<ul>
+					<li><a href="#four">Link 4</a></li>
+					<li><a href="#three">Link 3</a></li>
+					<li><a href="#two">Link 2</a></li>
+					<li><a href="#one">Link 1</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</section>
+
+			 <!-- Hero Image  -->
+			<section class="home" id="home">
+				
+				<div class="cross">
+					<svg xmlns="http://www.w3.org/2000/svg" width="599" height="599" viewBox="0 0 599 599" fill="none">
+						<path d="M390.799 0.599631L206.972 0.984042L207.405 207.789L0.599454 208.222L0.983865 392.049L207.789 391.616L208.222 598.421L392.048 598.037L391.616 391.232L598.421 390.799L598.037 206.972L391.231 207.405L390.799 0.599631Z" fill="#B81919" fill-opacity="0.75"/>
+					</svg>
+				</div>
+
+				<div class="archive">
+					<h1>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE<br>ARCHIVE</h1>
+				</div>
+
+			</section>
+
+			 <!-- First Section  -->
+			<section class="one" id="one">
+
+				<div class="r"></div>
+				
+				<div class="podcast">
+					<h2>PODCAST</h2>
+				</div>
+
+				<div class="podtext">
+					<h4>Each session will be individually linked below. You can also browse all content on Vimeo, Spotify or Apple Podcast.</h4>
+				</div>
+
+				<div class="v">
+					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+						<path d="M0.370791 13.0988C-0.231361 12.0782 -0.169217 12.0782 1.07366 10.8204C3.7137 8.14655 6.20373 5.22068 9.07949 2.88295C11.6831 0.777516 15.1353 -0.581628 17.4946 2.76681C19.6675 5.8533 19.7189 10.5312 20.2697 14.2578C20.8204 18.1227 21.3475 22.0765 22.5218 25.7734C22.8475 26.8138 23.4711 28.7808 24.5961 28.9464C26.049 29.1762 27.5276 26.238 28.2026 25.1408C29.9534 22.2248 32.3277 18.2981 32.0277 14.5494C31.732 10.5658 28.0033 11.3146 25.6719 12.266C26.0469 7.79564 29.6534 2.76928 33.1291 1.07159C36.8149 -0.69283 42.2921 -0.663176 44.1436 4.12843C46.1193 9.32283 44.3429 15.355 42.1893 20.0625C39.8407 25.1729 36.8128 29.9027 33.5791 34.3212C30.727 38.2454 27.3519 42.5502 23.1004 44.4258C18.2425 46.5609 15.3646 42.3995 13.7103 37.5807C11.9038 32.3344 11.0059 26.4456 9.70307 20.9843C9.15449 18.6737 8.50305 16.0469 7.20232 14.1391C5.50515 11.6828 3.57655 13.9933 1.90081 15.3204C1.32223 14.6606 0.848655 13.8204 0.370791 13.0988Z" fill="white"/>
+					</svg>
+				</div>
+
+				<div class="s">
+					<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+						<path d="M37.365 20.915C29.845 16.45 17.2725 15.98 10.105 18.2125C8.93 18.565 7.755 17.86 7.4025 16.8025C7.05 15.6275 7.755 14.4525 8.8125 14.1C17.155 11.6325 30.9025 12.1025 39.5975 17.2725C40.655 17.86 41.0075 19.27 40.42 20.3275C39.8325 21.15 38.4225 21.5025 37.365 20.915ZM37.13 27.495C36.5425 28.3175 35.485 28.67 34.6625 28.0825C28.3175 24.205 18.6825 23.03 11.28 25.38C10.34 25.615 9.2825 25.145 9.0475 24.205C8.8125 23.265 9.2825 22.2075 10.2225 21.9725C18.8 19.3875 29.375 20.68 36.66 25.145C37.365 25.4975 37.7175 26.6725 37.13 27.495ZM34.31 33.9575C33.84 34.6625 33.0175 34.8975 32.3125 34.4275C26.79 31.02 19.8575 30.315 11.6325 32.195C10.81 32.43 10.105 31.8425 9.87 31.1375C9.635 30.315 10.2225 29.61 10.9275 29.375C19.8575 27.3775 27.6125 28.2 33.7225 31.96C34.545 32.3125 34.6625 33.2525 34.31 33.9575ZM23.5 0C20.4139 0 17.3581 0.607846 14.5069 1.78883C11.6558 2.96982 9.06517 4.70081 6.88299 6.88299C2.47589 11.2901 0 17.2674 0 23.5C0 29.7326 2.47589 35.7099 6.88299 40.117C9.06517 42.2992 11.6558 44.0302 14.5069 45.2112C17.3581 46.3922 20.4139 47 23.5 47C29.7326 47 35.7099 44.5241 40.117 40.117C44.5241 35.7099 47 29.7326 47 23.5C47 20.4139 46.3922 17.3581 45.2112 14.5069C44.0302 11.6558 42.2992 9.06517 40.117 6.88299C37.9348 4.70081 35.3442 2.96982 32.4931 1.78883C29.6419 0.607846 26.5861 0 23.5 0Z" fill="white"/>
+					</svg>
+				</div>
+
+				<div class="a">
+					<svg xmlns="http://www.w3.org/2000/svg" width="49" height="58" viewBox="0 0 49 58" fill="none">
+						<path d="M40.8264 55.673C37.6603 58.7337 34.2035 58.2504 30.8759 56.8006C27.3544 55.3186 24.1238 55.2541 20.4085 56.8006C15.7563 58.7981 13.301 58.2182 10.5226 55.673C-5.24314 39.4672 -2.91705 14.7881 14.9809 13.886C19.3423 14.1116 22.3792 16.2702 24.9314 16.4635C28.7436 15.6902 32.3943 13.4672 36.465 13.7572C41.3433 14.1438 45.0263 16.0769 47.4493 19.5564C37.3695 25.5812 39.7603 38.8229 49 42.528C47.1585 47.3607 44.7678 52.1612 40.7941 55.7052L40.8264 55.673ZM24.6084 13.6927C24.1238 6.50807 29.9713 0.579927 36.6911 0C37.628 8.31228 29.1313 14.4982 24.6084 13.6927Z" fill="white"/>
+					</svg>
+				</div>
+
+			</section>
+
+			 <!-- Second Section  -->
+			<section class="two" id="two">
+				<h2>Chapter Two</h2>
+			</section>
+
+			 <!-- Third Section  -->
+			<section class="three" id="three">
+				<h2>Chapter Three</h2>
+			</section>
+
+			 <!-- Fourth Section  -->
+			<section class="four" id="four">
+				
+			</section>
+
+			 <!-- Fifth Section  -->
+			<section class="footer" id="five">
+				
+			</section>
+
+		</div>
+
+	</body>
+
+</html>
